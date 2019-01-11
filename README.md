@@ -1,9 +1,8 @@
-> This project is currently in __beta and APIs are subject to change.__
+> This is a fork of [naoufal/react-native-payments](https://github.com/naoufal/react-native-payments) with some of the pull requests merged.
 
 # React Native Payments
-[![react-native version](https://img.shields.io/badge/react--native-0.41-0ba7d3.svg?style=flat-square)](http://facebook.github.io/react-native/releases/0.40)
-[![npm](https://img.shields.io/npm/v/react-native-payments.svg?style=flat-square)](https://www.npmjs.com/package/react-native-payments)
-[![npm](https://img.shields.io/npm/dm/react-native-payments.svg?style=flat-square)](https://www.npmjs.com/package/react-native-payments)
+[![npm](https://img.shields.io/npm/v/@rnlibs/payments.svg?style=flat-square)](https://www.npmjs.com/package/@rnlibs/payments)
+[![npm](https://img.shields.io/npm/dm/@rnlibs/payments.svg?style=flat-square)](https://www.npmjs.com/package/@rnlibs/payments)
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
 Accept Payments with Apple Pay and Android Pay using the [Payment Request API](https://paymentrequest.show).
@@ -40,18 +39,14 @@ You can run the demo by cloning the project and running:
 $ yarn run:demo
 ```
 
-In a rush? Check out the [browser version](https://rnp.nof.me) of the demo.
-
-_Note that you'll need to run it from a browser with [Payment Request support](https://caniuse.com/#search=payment%20request)._
-
 ## Installation
 First, download the package:
 ```shell
-$ yarn add react-native-payments
+$ yarn add @rnlibs/payments
 ```
 Second, link the native dependencies:
 ```shell
-$ react-native link react-native-payments
+$ react-native link @rnlibs/payments
 ```
 
 ## Usage
