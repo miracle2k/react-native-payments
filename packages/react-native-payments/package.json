@@ -1,5 +1,5 @@
 {
-  "name": "react-native-payments",
+  "name": "@rnlibs/payments",
   "version": "0.7.1",
   "scripts": {
     "run:packager": "cd examples/native && yarn run:packager",
@@ -23,6 +23,9 @@
     "es6-error": "^4.0.2",
     "uuid": "^3.1.0",
     "validator": "^7.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "devDependencies": {
     "babel-jest": "20.0.3",
