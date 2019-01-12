@@ -4,5 +4,5 @@
     "packages/*",
     "packages/react-native-payments/examples/*"
   ],
-  "version": "0.8.0"
+  "version": "0.8.1"
 }
